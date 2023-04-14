@@ -8,6 +8,10 @@
     android:foregroundTint="#DC2424"
     tools:context=".MainActivity">
 
+
+
+
+
     <Spinner
         android:id="@+id/counrtySpinner"
         android:layout_width="267dp"
@@ -57,5 +61,19 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/counrtySpinner"
         app:layout_constraintStart_toStartOf="@+id/counrtySpinner" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="85dp"
+        android:text="Info:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/country_image"
+        tools:layout_editor_absoluteX="175dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
